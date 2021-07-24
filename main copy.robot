@@ -28,7 +28,7 @@ Input username
 
 Input password
     [Arguments]    ${password}
-    Input Text  //html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input  kanav554  ${password}
+    Input Text  //html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input  kanav554  ${password}#enter your password kanav554 was a temp password
  
 Login
     Click Button    //html/body/div[2]/div/div/div/div/div[2]/div/form/div[4]/button

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1 (Python 3.8.10 on linux)" generated="20210725 02:02:13.155" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1 (Python 3.8.10 on linux)" generated="20210725 02:36:26.644" rpa="false" schemaversion="2">
 <suite id="s1" name="Main" source="/home/kanav/moolya/13.1/main.robot">
 <test id="s1-t1" name="Valid Test">
 <kw name="Open Browser To flipkart">
@@ -7,10 +7,10 @@
 <arg>${URL}</arg>
 <arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20210725 02:02:13.302" level="INFO">Opening browser 'Chrome' to base url 'https://flipkart.com'.</msg>
-<status status="PASS" starttime="20210725 02:02:13.301" endtime="20210725 02:02:24.218"/>
+<msg timestamp="20210725 02:36:26.891" level="INFO">Opening browser 'Chrome' to base url 'https://flipkart.com'.</msg>
+<status status="PASS" starttime="20210725 02:36:26.890" endtime="20210725 02:36:32.585"/>
 </kw>
-<status status="PASS" starttime="20210725 02:02:13.301" endtime="20210725 02:02:24.218"/>
+<status status="PASS" starttime="20210725 02:36:26.889" endtime="20210725 02:36:32.585"/>
 </kw>
 <kw name="Input username">
 <arg>username</arg>
@@ -19,10 +19,10 @@
 <arg>8492809554</arg>
 <arg>${username}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20210725 02:02:24.220" level="INFO">Typing text '8492809554' into text field '//html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input'.</msg>
-<status status="PASS" starttime="20210725 02:02:24.219" endtime="20210725 02:02:24.338"/>
+<msg timestamp="20210725 02:36:32.588" level="INFO">Typing text '8492809554' into text field '//html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input'.</msg>
+<status status="PASS" starttime="20210725 02:36:32.586" endtime="20210725 02:36:32.780"/>
 </kw>
-<status status="PASS" starttime="20210725 02:02:24.218" endtime="20210725 02:02:24.339"/>
+<status status="PASS" starttime="20210725 02:36:32.586" endtime="20210725 02:36:32.781"/>
 </kw>
 <kw name="Input password">
 <arg>password</arg>
@@ -31,120 +31,156 @@
 <arg>kanav554</arg>
 <arg>${password}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20210725 02:02:24.339" level="INFO">Typing text 'kanav554' into text field '//html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input'.</msg>
-<status status="PASS" starttime="20210725 02:02:24.339" endtime="20210725 02:02:24.473"/>
+<msg timestamp="20210725 02:36:32.782" level="INFO">Typing text 'kanav554' into text field '//html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input'.</msg>
+<status status="PASS" starttime="20210725 02:36:32.782" endtime="20210725 02:36:32.987"/>
 </kw>
-<status status="PASS" starttime="20210725 02:02:24.339" endtime="20210725 02:02:24.473"/>
+<status status="PASS" starttime="20210725 02:36:32.781" endtime="20210725 02:36:32.987"/>
 </kw>
 <kw name="Login">
 <kw name="Click Button" library="SeleniumLibrary">
 <arg>//html/body/div[2]/div/div/div/div/div[2]/div/form/div[4]/button</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<msg timestamp="20210725 02:02:24.475" level="INFO">Clicking button '//html/body/div[2]/div/div/div/div/div[2]/div/form/div[4]/button'.</msg>
-<status status="PASS" starttime="20210725 02:02:24.475" endtime="20210725 02:02:24.584"/>
+<msg timestamp="20210725 02:36:32.989" level="INFO">Clicking button '//html/body/div[2]/div/div/div/div/div[2]/div/form/div[4]/button'.</msg>
+<status status="PASS" starttime="20210725 02:36:32.988" endtime="20210725 02:36:33.097"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>3s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210725 02:02:27.585" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20210725 02:02:24.584" endtime="20210725 02:02:27.586"/>
+<msg timestamp="20210725 02:36:36.098" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210725 02:36:33.098" endtime="20210725 02:36:36.098"/>
 </kw>
-<status status="PASS" starttime="20210725 02:02:24.474" endtime="20210725 02:02:27.586"/>
+<status status="PASS" starttime="20210725 02:36:32.987" endtime="20210725 02:36:36.099"/>
 </kw>
 <kw name="Press electronics &amp; add to cart">
 <kw name="Click Image" library="SeleniumLibrary">
 <arg>//*[@id="container"]/div/div[2]/div/div/div[3]/a/div[1]/div/img</arg>
 <doc>Clicks an image identified by ``locator``.</doc>
-<msg timestamp="20210725 02:02:27.590" level="INFO">Clicking image '//*[@id="container"]/div/div[2]/div/div/div[3]/a/div[1]/div/img'.</msg>
-<status status="PASS" starttime="20210725 02:02:27.589" endtime="20210725 02:02:27.720"/>
+<msg timestamp="20210725 02:36:36.100" level="INFO">Clicking image '//*[@id="container"]/div/div[2]/div/div/div[3]/a/div[1]/div/img'.</msg>
+<status status="PASS" starttime="20210725 02:36:36.099" endtime="20210725 02:36:36.186"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>3s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210725 02:02:30.721" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20210725 02:02:27.720" endtime="20210725 02:02:30.722"/>
+<msg timestamp="20210725 02:36:39.187" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210725 02:36:36.186" endtime="20210725 02:36:39.187"/>
 </kw>
 <kw name="Click Image" library="SeleniumLibrary">
 <arg>//*[@id="container"]/div/div[3]/div[5]/div/div[1]/a/div/img[2]</arg>
 <doc>Clicks an image identified by ``locator``.</doc>
-<msg timestamp="20210725 02:02:30.725" level="INFO">Clicking image '//*[@id="container"]/div/div[3]/div[5]/div/div[1]/a/div/img[2]'.</msg>
-<status status="PASS" starttime="20210725 02:02:30.723" endtime="20210725 02:02:30.872"/>
+<msg timestamp="20210725 02:36:39.187" level="INFO">Clicking image '//*[@id="container"]/div/div[3]/div[5]/div/div[1]/a/div/img[2]'.</msg>
+<status status="PASS" starttime="20210725 02:36:39.187" endtime="20210725 02:36:39.314"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>3s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210725 02:02:33.873" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20210725 02:02:30.872" endtime="20210725 02:02:33.873"/>
+<msg timestamp="20210725 02:36:42.315" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210725 02:36:39.315" endtime="20210725 02:36:42.315"/>
 </kw>
 <kw name="Click Image" library="SeleniumLibrary">
 <arg>//*[@id="container"]/div/div[3]/div/div/div[2]/div[1]/a/div[1]/div/img</arg>
 <doc>Clicks an image identified by ``locator``.</doc>
-<msg timestamp="20210725 02:02:33.876" level="INFO">Clicking image '//*[@id="container"]/div/div[3]/div/div/div[2]/div[1]/a/div[1]/div/img'.</msg>
-<kw name="Capture Page Screenshot" library="SeleniumLibrary">
-<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<msg timestamp="20210725 02:02:34.150" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-12.png"&gt;&lt;img src="selenium-screenshot-12.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210725 02:02:33.988" endtime="20210725 02:02:34.150"/>
-</kw>
-<msg timestamp="20210725 02:02:34.152" level="FAIL">ElementNotInteractableException: Message: element not interactable
-  (Session info: chrome=92.0.4515.107)
-</msg>
-<status status="FAIL" starttime="20210725 02:02:33.874" endtime="20210725 02:02:34.152"/>
+<msg timestamp="20210725 02:36:42.316" level="INFO">Clicking image '//*[@id="container"]/div/div[3]/div/div/div[2]/div[1]/a/div[1]/div/img'.</msg>
+<status status="PASS" starttime="20210725 02:36:42.316" endtime="20210725 02:36:42.406"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>3s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" starttime="20210725 02:02:34.152" endtime="20210725 02:02:34.152"/>
+<msg timestamp="20210725 02:36:45.409" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210725 02:36:42.406" endtime="20210725 02:36:45.409"/>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <var>${cart}</var>
 <arg>//*[@id="container"]/div/div[3]/div/div[2]/div[2]/div/div[1]/div/a[2]</arg>
 <doc>Returns the text value of the element identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20210725 02:02:34.153" endtime="20210725 02:02:34.153"/>
+<msg timestamp="20210725 02:36:45.490" level="INFO">${cart} = Kapaver Back Cover for Poco X3 Pro, Poco X3 NFC</msg>
+<status status="PASS" starttime="20210725 02:36:45.409" endtime="20210725 02:36:45.490"/>
 </kw>
 <kw name="Click Link" library="SeleniumLibrary">
 <arg>//*[@id="container"]/div/div[3]/div/div[2]/div[2]/div/div[1]/div/a[2]</arg>
 <doc>Clicks a link identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20210725 02:02:34.153" endtime="20210725 02:02:34.153"/>
+<msg timestamp="20210725 02:36:45.490" level="INFO">Clicking link '//*[@id="container"]/div/div[3]/div/div[2]/div[2]/div/div[1]/div/a[2]'.</msg>
+<status status="PASS" starttime="20210725 02:36:45.490" endtime="20210725 02:36:45.750"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>3s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" starttime="20210725 02:02:34.153" endtime="20210725 02:02:34.153"/>
+<msg timestamp="20210725 02:36:48.751" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210725 02:36:45.750" endtime="20210725 02:36:48.751"/>
 </kw>
 <kw name="Switch Window" library="SeleniumLibrary">
 <arg>new</arg>
 <doc>Switches to browser window matching ``locator``.</doc>
-<status status="NOT RUN" starttime="20210725 02:02:34.153" endtime="20210725 02:02:34.153"/>
+<status status="PASS" starttime="20210725 02:36:48.751" endtime="20210725 02:36:48.760"/>
 </kw>
 <kw name="Click Button" library="SeleniumLibrary">
 <arg>//*[@id="container"]/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[1]/button</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20210725 02:02:34.153" endtime="20210725 02:02:34.153"/>
+<msg timestamp="20210725 02:36:48.760" level="INFO">Clicking button '//*[@id="container"]/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[1]/button'.</msg>
+<status status="PASS" starttime="20210725 02:36:48.760" endtime="20210725 02:36:48.920"/>
 </kw>
-<status status="FAIL" starttime="20210725 02:02:27.587" endtime="20210725 02:02:34.154"/>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>//*[@id="container"]/div/div[1]/div[1]/div[2]/div[5]/div/div/a</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20210725 02:36:48.922" level="INFO">Clicking link '//*[@id="container"]/div/div[1]/div[1]/div[2]/div[5]/div/div/a'.</msg>
+<status status="PASS" starttime="20210725 02:36:48.920" endtime="20210725 02:36:49.029"/>
 </kw>
-<kw name="Check Item in Cart">
-<status status="NOT RUN" starttime="20210725 02:02:34.154" endtime="20210725 02:02:34.154"/>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210725 02:36:52.031" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210725 02:36:49.030" endtime="20210725 02:36:52.031"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${added}</var>
+<arg>//*[@id="container"]/div/div[2]/div/div/div[1]/div/div[2]/div/div[1]/div[1]/div[1]/a</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20210725 02:36:52.065" level="INFO">${added} = Kapaver Back Cover for Poco X3 Pro, Poco X3 NFC</msg>
+<status status="PASS" starttime="20210725 02:36:52.031" endtime="20210725 02:36:52.065"/>
+</kw>
+<if>
+<branch type="IF" condition="&quot;${added}&quot; == &quot;${cart}&quot;">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Added "${added}"</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210725 02:36:52.065" endtime="20210725 02:36:52.066"/>
+</kw>
+<status status="PASS" starttime="20210725 02:36:52.065" endtime="20210725 02:36:52.066"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Not Added</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20210725 02:36:52.066" endtime="20210725 02:36:52.066"/>
+</kw>
+<status status="NOT RUN" starttime="20210725 02:36:52.066" endtime="20210725 02:36:52.066"/>
+</branch>
+<status status="PASS" starttime="20210725 02:36:52.065" endtime="20210725 02:36:52.067"/>
+</if>
+<kw name="Sleep" library="BuiltIn">
+<arg>33s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210725 02:37:25.067" level="INFO">Slept 33 seconds</msg>
+<status status="PASS" starttime="20210725 02:36:52.067" endtime="20210725 02:37:25.067"/>
+</kw>
+<status status="PASS" starttime="20210725 02:36:36.099" endtime="20210725 02:37:25.068"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20210725 02:02:34.154" endtime="20210725 02:02:34.218"/>
+<status status="PASS" starttime="20210725 02:37:25.068" endtime="20210725 02:37:25.145"/>
 </kw>
-<status status="FAIL" starttime="20210725 02:02:13.300" endtime="20210725 02:02:34.218">ElementNotInteractableException: Message: element not interactable
-  (Session info: chrome=92.0.4515.107)
-</status>
+<status status="PASS" starttime="20210725 02:36:26.888" endtime="20210725 02:37:25.145"/>
 </test>
 <doc>Testing on FLIPKART</doc>
-<status status="FAIL" starttime="20210725 02:02:13.156" endtime="20210725 02:02:34.219"/>
+<status status="PASS" starttime="20210725 02:36:26.645" endtime="20210725 02:37:25.147"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="0" fail="1" skip="0" id="s1" name="Main">Main</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Main">Main</stat>
 </suite>
 </statistics>
 <errors>
